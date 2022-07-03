@@ -2,10 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React, { useState }  from 'react'
 import { Alert, StyleSheet, Text, View, TouchableOpacity, TextInput } from 'react-native';
 import { NativeBaseProvider, Box , Center, Image, Stagger, IconButton, HStack, useDisclose, Icon, VStack, Avatar, ScrollView} from "native-base";
-import Home from './src/Screens/Home';
-import Login from './src/Screens/Login';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
-import image from './assets/images/hint.jpg';
 
 const App = () => {
 
